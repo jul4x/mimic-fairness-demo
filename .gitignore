@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — never commit MIMIC files
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+
+# Output figures
+reports/figures/*.png
+reports/figures/*.svg
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
