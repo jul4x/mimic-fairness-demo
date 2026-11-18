@@ -19,7 +19,7 @@ I'm doing this because I'm interested in how clinical AI gets evaluated, not jus
 
 ## Results
 
-The pipeline runs end-to-end on the MIMICC-IV Clinical Data Demo. After applying the inclusion criteria (adult, first ICU stay, LOS ≥ 24h, no missing key fields), the analytic cohort has on the order of 50 stays.
+The pipeline runs end-to-end on the MIMIC-IV Clinical Data Demo. After applying the inclusion criteria (adult, first ICU stay, LOS ≥ 24h, no missing key fields), the analytic cohort has on the order of 50 stays.
 
 A logistic-regression baseline trained on first-24h vital signs and laboratory summaries (~24 features) produces cross-validated predictions for the full cohort. Headline metrics on out-of-fold predictions — AUC-ROC, AUC-PR, calibration — are reported in `notebooks/05_baseline_model.ipynb`. With ~50 stays and ~24 features the model is overparameterized; predictive performance numbers are illustrative, not estimates.
 
