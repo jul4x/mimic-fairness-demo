@@ -9,7 +9,7 @@ A learning project. The goal is to build, end to end, a small but honest pipelin
 1. Trains a baseline model (logistic regression) to predict in-hospital mortality from the first 24 hours of an ICU stay.
 2. Audits the model's performance across demographic subgroups to surface potential disparities.
 
-It uses the publicly available **MIMIC-IV Demo** (~100 patients) — small enough to iterate on locally, large enough to set up a real pipeline. The subgroup numbers will be too small for reliable fairness statistics; the value of the project is the **method**, not the numbers. A scaled-up version on the full MIMIC-IV is planned, pending PhysioNet credentialing.
+It uses the publicly available **MIMIC-IV Demo** (~100 patients) — small enough to iterate on locally, large enough to set up a real pipeline. The subgroup numbers will be too small for reliable fairness statistics; the value of the project is the **method**, not the numbers. A scaled-up version on the full MIMIC-IV is planned, acquired PhysioNet credentialing.
 
 ## Why this question
 
